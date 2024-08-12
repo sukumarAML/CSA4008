@@ -16,10 +16,10 @@ print(sigmaz())
 print(jmat(5/2.0,'+'))
 
 q=destroy(4)
-q.dims
-q.shape
-q.type
-q.isherm
-q.data
+print(q.dims)
+print(q.shape)
+print(q.type)
+print(q.isherm)
+print(q.data)
 
 
